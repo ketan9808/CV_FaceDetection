@@ -1,8 +1,7 @@
 # CV_FaceDetectionn
 
 ## overview
-face detection is widely used nowadays. so this program illustrade a basic techinque to detect faces.
-this face use haarcascade classifier for face detection and opencv library for image pre-processing and post-processing.
+face detection is widely used nowadays. so these program illustrade a basic techinque to detect faces.
 
 
 ## HaarCascade vs HOG vs CNN
@@ -26,8 +25,10 @@ HaarCascade is machine learning model to detect various object. The models are t
 ##  HOG
 yet to upload the code
 
-## CNN
-yet to upload the code
+## MTCNN
+Multi-Task Convolution Neural Network, This is a CNN based model which is used to detect face. along with the face this model is also used to detect various face landmarks like nose, mouth, eyes and confidence.
+The program named Face_detection_MTCNN.ipyng illustrate the purpose of the same. The program first capture the image from the cront camera of your computer and then use mtcnn to detect the face and its landmarks and draw them on the frame.
+one of the sample output is saved in the repository itself named "MTCHH_OP_0.jpg"
 
 ## face detection and music player
 This program uses cascade classifier to detect faces and play music whenever any face is detected in frame and when the face goes out of frame the music stops.
